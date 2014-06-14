@@ -1,0 +1,40 @@
+/* Functional CSS for Twitter Bootstrap Menu */
+
+.bootstrapper-processed {
+	display: none; 
+}
+
+/* Tablet */
+
+@media (min-width: 500px) {
+	.bootstrapper-menu li {
+		float: left; 
+		width: 50%;
+	}
+
+	
+	.bootstrapper button {
+		display: none;
+	}
+
+	.bootstrapper-processed {
+		display: block !important;
+	}
+
+}
+
+
+/* Desktop */
+
+@media (min-width: 700px) {
+	.bootstrapper-menu li {
+		width: auto;
+	}
+
+}
+
+.bootstrapper-clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
